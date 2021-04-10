@@ -167,7 +167,9 @@ a.btn-quiz{padding: 0 5px 0 5px !important;}
 .topic_title .row .col{padding: 15px;line-height: 34px;}
 .topic_content{margin-top: 50px;}
 .dropdown-mytrigger{border:1px solid #ec5252; color: #ec5252; padding: 4px 5px; display: inline-block; line-height: 24px;}
-
+@media print{
+	body{display: inline-block !important;}
+}
 .topic_content ul{list-style-type:disc;padding-left: 30px;}
 .topic_content ul li{list-style-type:disc;}
 .card .card-content, .topic_content ul li, .card .card-content p, .card .card-content a{font-weight: 300;font-size: 18px;color: #333;}
